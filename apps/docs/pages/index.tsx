@@ -1,10 +1,5 @@
-import { Button } from "ui";
+import { Page } from 'ui';
 
 export default function Docs() {
-  return (
-    <div>
-      <h1>Docs</h1>
-      <Button />
-    </div>
-  );
+  return <Page />;
 }
